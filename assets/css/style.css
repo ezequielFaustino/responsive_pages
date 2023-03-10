@@ -46,7 +46,18 @@ nav a {
   font-size: 20px;
 }
 
+/* Conteudo principal */
+main {
+  flex: 20 1 500px;
+  flex-wrap: wrap;
+  overflow: auto;
+}
 
+main section {
+  width: 100%;
+  margin: 10px;
+  background-color: #ffff;
+}
 
 a {
   text-decoration: none;
