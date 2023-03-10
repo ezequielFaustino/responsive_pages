@@ -59,7 +59,20 @@ main section {
   background-color: #ffff;
 }
 
+/* Footer */
+footer {
+  flex: 1 1 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
+/* Media query */
