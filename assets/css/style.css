@@ -70,6 +70,19 @@ footer p {
   text-align: center;
 }
 
+.button {
+  padding: 10px 30px;
+  background-color: blue;
+  color: #fff;
+  font-size: 0.9em;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #a1a1a1;
+}
+
 a {
   text-decoration: none;
   color: inherit;
