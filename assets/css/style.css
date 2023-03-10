@@ -18,12 +18,12 @@ body {
 header, nav, main, footer {
   display: flex;
   margin: 3px;
-  background-color: #a1a1a1;
 }
 
 /* Cabeçalho */
 header {
   flex: 1 1 100vw;
+  background-color: #7159c1;
 }
 
 header #logo {
@@ -53,6 +53,7 @@ nav {
 
 nav a {
   margin: 0 3%;
+  color: #ffff;
   font-size: 20px;
 }
 
@@ -118,7 +119,6 @@ footer p {
 
 a {
   text-decoration: none;
-  color: inherit;
 }
 
 /* Media query */
