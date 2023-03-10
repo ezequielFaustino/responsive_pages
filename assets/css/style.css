@@ -122,3 +122,50 @@ a {
 }
 
 /* Media query */
+/* Altera o estilo dos elementos para serem apresentados em telas menores que 717px */
+@media only screen and (max-width: 717px) {
+  #openMenu, #closeMenu {
+    display: block;
+  }
+
+  #openMenu {
+    margin-left: auto;
+  }
+
+  #closeMenu {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+  }
+
+  header {
+    /* ordem da visualizaçao dos elementos */
+    order: 0;
+  }
+
+  nav {
+    order: 1;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    display: none;
+    opacity: 0;
+    transition: 0.3s;
+  }
+
+  nav a {
+    margin: 3%;
+  }
+
+  main {
+    order: 2;
+  }
+
+  footer {
+    order: 3;
+  }
+}
