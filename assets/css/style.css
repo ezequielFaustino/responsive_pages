@@ -29,9 +29,18 @@ header {
 header #logo {
   display: flex;
   flex: 0 1 200px;
-  background: #c9c9c9;
   justify-content: center; /* justify-content => alinha os itens na vertical */
   align-items: center; /* align-items => alinha os itens na horizontal */
+}
+
+header #logo i {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #ffff;
+}
+
+header #logo i:hover {
+  opacity: 0.9;
 }
 
 #openMenu, #closeMenu {
@@ -54,7 +63,12 @@ nav {
 nav a {
   margin: 0 3%;
   color: #ffff;
+  font-weight: bold;
   font-size: 20px;
+}
+
+nav a:hover {
+  opacity: 0.9;
 }
 
 /* Conteudo principal */
@@ -102,9 +116,8 @@ footer p {
 
 .button {
   display: inline-block;
-  font-size: 1.6rem;
   font-weight: 600;
-  color: #fff;
+  color: #ffff;
   background-color: rgb(113, 89, 193);
   margin: 15px 0px 0px;
   padding: 12px 30px;
@@ -159,6 +172,7 @@ a {
 
   nav a {
     margin: 3%;
+    color: #7159c1;
   }
 
   main {
