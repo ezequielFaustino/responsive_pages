@@ -36,68 +36,54 @@ a {
 }
 
 /* Form */
-#form {
+.container {
+  max-width: 900px;
+  width: 100%;
+  border-radius: 6px;
+  padding: 30px;
+  margin: 80px auto;
+  background-color: #a1a1a1;
+}
+
+.container header {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+
+.container .form {
+  margin-top: 16px;
+  min-height: 490px;
+}
+
+.container form .title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 6px 0;
+  color: #fff;
+}
+
+.container .form .fields {
   display: flex;
-  flex: 1 1 100vw;
-  height: 100vh;
-  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
-#form form {
-  border: 1px solid #c6c7cc;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-#form .input-field {
-  padding: 20px 20px 0 20px;
+.form .fields .input-field {
+  display: flex;
+  width: calc(100% / 3 - 15px);
+  flex-direction: column;
 }
 
 .input-field label {
-  color: #395870;
-  display: block;
-  font-weight: bold;
-  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #2e2e2e;
 }
 
 .input-field input {
-  background: #fff;
-  border-bottom: 1px solid #c6c7cc;
-  border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;  
-  color: #636466;
-  padding: 6px;
-  margin-top: 6px;
-  width: 100%;
-}
-
-/* Estilos padrao para deixar cada box visivel */
-.box {
-  color: white;
-  font-size: 100px;
-  text-align: center;
-  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
-  padding: 10px;
-}
-
-.box1 {background: #1abc9c;}
-.box2 {background: #3498db;}
-.box3 {background: #9b559b;}
-.box4 {background: #34495e;}
-.box5 {background: #f1c40f;}
-.box6 {background: #e67e22;}
-.box7 {background: #e74c3c;}
-.box8 {background: #bdc3c7;}
-.box9 {background: #2ecc71;}
-.box10 {background: #16a085;}
-
-.container {
-  display: flex;
-  border: 10px solid goldenrod;
-  height: 100vh;
-  flex-wrap: wrap;
-}
-
-.box {
-  width: 300px;
+  height: 42px;
+  margin: 8px 0;
 }

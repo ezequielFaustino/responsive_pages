@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,81 +8,31 @@
   <title>Formulário - Ezequiel</title>
   <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
+
 <body>
   <div class="container">
-    <div class="box box1">1</div>
-    <div class="box box2">2</div>
-    <div class="box box3">3</div>
-    <div class="box box4">4</div>
-    <div class="box box5">5</div>
-    <div class="box box6">6</div>
-    <div class="box box7">7</div>
-    <div class="box box8">8</div>
-    <div class="box box9">9</div>
-    <div class="box box10">10</div>
-  </div>
-
-  <div id="form">
+    <header>Cadastra-se</header>
     <form action="#">
-      <div class="input-field">
-        <label>Título</label>
-        <label>
-          <input type="radio" name="title" value="mr">
-          Senhor
-        </label>
-        <label>
-          <input type="radio" name="title" value="mrs">
-          Senhora
-        </label>
-        <label>
-          <input type="radio" name="title" value="miss">
-          Senhorita
-        </label>
+      <div class="form first">
+        <span class="title">Detalhes Pessoais</span>
+
+        <div class="fields">
+          <div class="input-field">
+            <label for="name">Nome completo</label>
+            <input type="text" name="name" id="name" placeholder="digite seu nome">
+          </div>
+          <div class="input-field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="digite seu email">
+          </div>
+          <div class="input-field">
+            <label for="phone">Celular</label>
+            <input type="tel" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx">
+          </div>
+        </div>
       </div>
-      <div class="input-field">
-        <label for="first_name">Nome</label>
-        <input type="text" name="first_name" id="first_name" placeholder="digite seu nome">
-      </div>
-      <div class="input-field">
-        <label for="last_name">Sobrenome</label>
-        <input type="text" name="last_name" id="last_name" placeholder="digite seu sobrenome">
-      </div>
-      <div class="input-field">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required placeholder="digite seu email">
-      </div>
-      <div class="input-field">
-        <label for="phone">Celular</label>
-        <input type="tel" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx">
-      </div>
-      <div class="input-field">
-        <label for="password">Senha</label>
-        <input type="password" name="password" id="password" placeholder="digite sua senha">
-      </div>
-      <div class="input-field">
-        <label for="country">Nacionalidade</label>
-        <select name="country" id="country">
-          <option selected disabled value>Selecione</option>
-          <option value="brazil">Brasil</option>
-          <option value="argentine">Argentina</option>
-          <option value="uruguay">Uruguai</option>
-          <option value="paraguay">Paraguai</option>
-        </select>
-      </div>
-      <div class="input-field">
-        <label>
-          <input type="checkbox" name="terms" id="terms" value="terms">
-          Eu concordo com os <a href="#">termos e condições</a>
-        </label>
-      </div>
-      <div class="form-action">
-        <button type="submit" class="button">Cadastrar</button>
-        <button type="reset" class="button">Resetar formulário</button>
-      </div>
-  
-    </form>
-    <a href="../index.html" class="button">VOLTAR</a>
+    </form>    
   </div>
-  
 </body>
+
 </html>
