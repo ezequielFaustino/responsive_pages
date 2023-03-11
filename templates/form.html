@@ -49,10 +49,22 @@
       <label for="country">Nacionalidade</label>
       <select name="country" id="country">
         <option selected disabled value>Selecione</option>
+        <option value="brazil">Brasil</option>
+        <option value="argentine">Argentina</option>
+        <option value="uruguay">Uruguai</option>
+        <option value="paraguay">Paraguai</option>
       </select>
     </div>
-
-    <button type="submit">Cadastrar</button>
+    <div>
+      <label>
+        <input type="checkbox" name="terms" id="terms" value="terms">
+        Eu concordo com os <a href="#">termos e condições</a>
+      </label>
+    </div>
+    <div>
+      <button type="submit">Cadastrar</button>
+      <button type="reset">Resetar formulário</button>
+    </div>
 
   </form>
   <a href="../index.html" class="button">VOLTAR</a>
