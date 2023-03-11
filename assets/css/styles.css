@@ -64,11 +64,14 @@ a {
 }
 
 .input-field input {
-  border: none;
-  border-bottom: #bdc3c7;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  background: #fff;
+  border-bottom: 1px solid #c6c7cc;
   border-radius: 5px;
-  margin: 0;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
 }
 
 /* Estilos padrao para deixar cada box visivel */
