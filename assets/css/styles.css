@@ -35,6 +35,18 @@ a {
   opacity: 0.9;
 }
 
+/* Form */
+#form {
+  display: flex;
+  border: 10px solid greenyellow;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+#form .input-field {
+  padding: 10px;
+}
+
 /* Estilos padrao para deixar cada box visivel */
 .box {
   color: white;

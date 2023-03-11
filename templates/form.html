@@ -21,65 +21,67 @@
     <div class="box box10">10</div>
   </div>
 
-
-  <form action="#">
-    <div>
-      <label>Title</label>
-      <label>
-        <input type="radio" name="title" value="mr">
-        Senhor
-      </label>
-      <label>
-        <input type="radio" name="title" value="mrs">
-        Senhora
-      </label>
-      <label>
-        <input type="radio" name="title" value="miss">
-        Senhorita
-      </label>
-    </div>
-    <div>
-      <label for="first_name">Nome</label>
-      <input type="text" name="first_name" id="first_name" placeholder="digite seu nome">
-    </div>
-    <div>
-      <label for="last_name">Sobrenome</label>
-      <input type="text" name="last_name" id="last_name" placeholder="digite seu sobrenome">
-    </div>
-    <div>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" required placeholder="digite seu email">
-    </div>
-    <div>
-      <label for="phone">Celular</label>
-      <input type="tel" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx">
-    </div>
-    <div>
-      <label for="password">Senha</label>
-      <input type="password" name="password" id="password" placeholder="digite sua senha">
-    </div>
-    <div>
-      <label for="country">Nacionalidade</label>
-      <select name="country" id="country">
-        <option selected disabled value>Selecione</option>
-        <option value="brazil">Brasil</option>
-        <option value="argentine">Argentina</option>
-        <option value="uruguay">Uruguai</option>
-        <option value="paraguay">Paraguai</option>
-      </select>
-    </div>
-    <div>
-      <label>
-        <input type="checkbox" name="terms" id="terms" value="terms">
-        Eu concordo com os <a href="#">termos e condições</a>
-      </label>
-    </div>
-    <div>
-      <button type="submit">Cadastrar</button>
-      <button type="reset">Resetar formulário</button>
-    </div>
-
-  </form>
+  <div id="form">
+    <form action="#">
+      <div class="input-field">
+        <label>Title</label>
+        <label>
+          <input type="radio" name="title" value="mr">
+          Senhor
+        </label>
+        <label>
+          <input type="radio" name="title" value="mrs">
+          Senhora
+        </label>
+        <label>
+          <input type="radio" name="title" value="miss">
+          Senhorita
+        </label>
+      </div>
+      <div class="input-field">
+        <label for="first_name">Nome</label>
+        <input type="text" name="first_name" id="first_name" placeholder="digite seu nome">
+      </div>
+      <div class="input-field">
+        <label for="last_name">Sobrenome</label>
+        <input type="text" name="last_name" id="last_name" placeholder="digite seu sobrenome">
+      </div>
+      <div class="input-field">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required placeholder="digite seu email">
+      </div>
+      <div class="input-field">
+        <label for="phone">Celular</label>
+        <input type="tel" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx">
+      </div>
+      <div class="input-field">
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password" placeholder="digite sua senha">
+      </div>
+      <div>
+        <label for="country">Nacionalidade</label>
+        <select name="country" id="country">
+          <option selected disabled value>Selecione</option>
+          <option value="brazil">Brasil</option>
+          <option value="argentine">Argentina</option>
+          <option value="uruguay">Uruguai</option>
+          <option value="paraguay">Paraguai</option>
+        </select>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" name="terms" id="terms" value="terms">
+          Eu concordo com os <a href="#">termos e condições</a>
+        </label>
+      </div>
+      <div>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Resetar formulário</button>
+      </div>
+  
+    </form>
+  </div>
+  
   <a href="../index.html" class="button">VOLTAR</a>
 </body>
 </html>
