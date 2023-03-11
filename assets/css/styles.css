@@ -48,12 +48,19 @@ a {
   display: flex;
   border: 1px solid #c6c7cc;
   border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
 }
 
 #form .input-field {
   padding: 20px 20px 0 20px;
+}
+
+.input-field input {
+  border: none;
+  border-bottom: #bdc3c7;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  border-radius: 5px;
+  margin: 0;
 }
 
 /* Estilos padrao para deixar cada box visivel */
