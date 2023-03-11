@@ -39,7 +39,6 @@ a {
 #form {
   display: flex;
   height: 100vh;
-  flex-direction: column;
   flex-wrap: wrap;
   padding: 10px;
 }
