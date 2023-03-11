@@ -74,6 +74,12 @@ a {
   width: 100%;
 }
 
+.form-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+}
+
 /* Estilos padrao para deixar cada box visivel */
 .box {
   color: white;
