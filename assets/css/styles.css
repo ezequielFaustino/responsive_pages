@@ -45,6 +45,8 @@ a {
 }
 
 #form form {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #c6c7cc;
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -52,8 +54,7 @@ a {
 }
 
 #form .input-field {
-  display: flex;
-  flex-direction: column;
+  padding: 20px 20px 0 20px;
 }
 
 /* Estilos padrao para deixar cada box visivel */
