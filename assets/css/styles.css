@@ -39,13 +39,13 @@ a {
 #form {
   display: flex;
   height: 100vh;
+  flex-direction: column;
   flex-wrap: wrap;
   padding: 10px;
 }
 
 #form form {
   display: flex;
-  flex-direction: column;
   border: 1px solid #c6c7cc;
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
