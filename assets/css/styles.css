@@ -23,10 +23,10 @@ a {
   display: inline-block;
   font-weight: 600;
   color: #ffff;
-  background-color: rgb(113, 89, 193);
+  background-color: #1439DE;
   margin: 15px 0px 0px;
   padding: 12px 30px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -36,3 +36,143 @@ a {
 }
 
 /* Form */
+.container-form {
+  width: 80%;
+  max-width: 992px;
+  height: 80vh;
+  display: flex;
+  margin: 80px auto;
+  border-radius: 20px;
+}
+
+.form-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.form-image img {
+  width: 31rem;
+}
+
+.sign-up {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #911C6E;
+  color: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.sign-up .title {
+  padding-top: 2rem;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.sign-up .input-field {
+  padding: 0.8rem 0;
+}
+
+.input-field input {
+  padding: 0.6rem 1.1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.input-field input:hover {
+  background-color: #eeeeee75;
+}
+
+.input-field input:focus-visible {
+  outline: 1px solid #6c63ff;
+}
+
+.input-field input::placeholder {
+  color: #000000be;
+}
+
+.checkbox-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.6rem 0;
+}
+
+.checkbox-content label,
+.text {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.submit-btn input[type="submit"] {
+  width: 100%;
+  border: none;
+  background-color: #1439DE;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.login-signup a {
+  transition: all 0.2s ease;
+  color: #000000be;
+}
+
+.login-signup a:hover {
+  text-decoration: underline;
+}
+
+/* Typical Device Breakpoints
+--------------------------------
+Pequenas telas: ate 600px
+Celular: de 600px ate 768px
+Tablet: 768px ate 992px
+Desktop: 992px ate 1200px;
+Grandes telas: acima de 1200px
+*/
+
+/* Para telas ate 425px */
+@media screen and (max-width: 425px) {
+
+  .form-image,
+  .input-field i {
+    display: none;
+  }
+
+  .container-form {
+    width: 80%;
+    height: 100vh;
+  }
+
+  .sign-up {
+    width: 100%;
+  }
+}
+
+/* Para telas acima de 425px e no maximo 992px */
+
+@media screen and (max-width: 992px) {
+  .form-image {
+    display: none;
+  }
+
+  .container-form {
+    width: 80%;
+    height: 100vh;
+  }
+
+  .sign-up {
+    width: 100%;
+  }
+}
