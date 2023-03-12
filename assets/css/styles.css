@@ -36,54 +36,71 @@ a {
 }
 
 /* Form */
-.container {
-  max-width: 900px;
+.container-form {
+  max-width: 450px;
   width: 100%;
   border-radius: 6px;
   padding: 30px;
   margin: 80px auto;
-  background-color: #a1a1a1;
 }
 
-.container header {
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  color: #fff;
+.container-form .form {
+  padding: 30px;
+  background-color: rgb(138, 223, 231);
+  border-radius: 20px;
 }
 
-.container .form {
-  margin-top: 16px;
-  min-height: 490px;
-}
-
-.container form .title {
-  font-size: 16px;
-  font-weight: 500;
-  margin: 6px 0;
-  color: #fff;
-}
-
-.container .form .fields {
+.sign-up .title {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.sign-up .input-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 100%;
   margin-top: 10px;
 }
 
-.form .fields .input-field {
-  display: flex;
-  width: calc(100% / 3 - 15px);
-  flex-direction: column;
-}
-
-.input-field label {
-  font-size: 12px;
-  font-weight: 500;
-  color: #2e2e2e;
-}
-
 .input-field input {
-  height: 42px;
-  margin: 8px 0;
+  height: 100%;
+  width: 100%;
+  padding: 0 35px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid transparent;
+  border-radius: 4px;
+  transition: all 0.2s ease;
 }
+
+.input-field input:focus {
+  border-bottom-color: #02030f;
+}
+
+.input-field i {
+  padding-left: 3%;
+  font-size: 20px;
+}
+
+.sign-up .checkbox-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.checkbox-content label {
+  font-size: 18px;
+}
+
+.text {
+  font-size: 14px;
+}
+

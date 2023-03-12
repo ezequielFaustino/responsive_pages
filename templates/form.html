@@ -6,32 +6,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulário - Ezequiel</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body>
-  <div class="container">
-    <header>Cadastra-se</header>
+  <div class="container-form">
+   <div class="form sign-up">
+    <span class="title">Cadastre-se</span>
     <form action="#">
-      <div class="form first">
-        <span class="title">Detalhes Pessoais</span>
-
-        <div class="fields">
-          <div class="input-field">
-            <label for="name">Nome completo</label>
-            <input type="text" name="name" id="name" placeholder="digite seu nome">
-          </div>
-          <div class="input-field">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="digite seu email">
-          </div>
-          <div class="input-field">
-            <label for="phone">Celular</label>
-            <input type="tel" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx">
-          </div>
+      <div class="input-field">
+        <input type="text" name="name" id="name" placeholder="digite seu nome completo">
+        <i class="fa-solid fa-user"></i>
+      </div>
+      <div class="input-field">
+        <input type="email" name="email" id="email" placeholder="digite seu email">
+        <i class="fa-solid fa-envelope" icon></i>
+      </div>
+      <div class="input-field">
+        <input type="password" name="password" id="password" placeholder="insira sua senha">
+        <i class="fa-solid fa-lock"></i>
+      </div>
+      <div class="input-field">
+        <input type="password" name="confirm_password" id="confirm_password" placeholder="confirme a senha">
+        <i class="fa-solid fa-lock"></i>
+      </div>
+      <div class="checkbox-text">
+        <div class="checkbox-content">
+          <input type="checkbox" name="term_con" id="term_con">
+          <label for="term_con" class="text"> Eu aceito todos os termos e condições.</label>
         </div>
       </div>
-    </form>    
+      <div class="input-field submit-btn">
+        <input type="submit" value="Cadastrar">
+      </div>
+    </form>
+    <div class="login=signup">
+      <span class="text">Ja está cadastrado em nossa plataforma?
+        <a href="#" class="text login-link">Faça login!</a>
+      </span>
+    </div>
+   </div>   
+   <a href="../index.html" class="button">VOLTAR</a>
   </div>
 </body>
 
